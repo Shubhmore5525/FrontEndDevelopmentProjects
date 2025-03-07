@@ -1,28 +1,32 @@
 *{
-    margin: 0px;
+    margin: 0px;/*Remove default margin and padding*/
     padding: 0px;
     box-sizing: border-box;
+    /*including padding and border, NOT extra!
+    content box= width+ left-right padding+ left-right border*/
 }
 body{
     font-family: "Tiro Devanagari Marathi", serif;
-    font-style: normal;
-    color: black;
+    font-style: normal;/*without bold and italic*/
+    color: black;/*font color*/
     background-color: #ed8e8e;
 }
-
+/**/
 .container{
-    max-width: 90rem;
+    max-width: 90rem;/*limits the container’s width*/
+    /*1 rem = 16px*/
     margin: 2rem auto;
-    padding: 0px 2rem;
+    /*center block-level elements (like <div>) horizontally */
+    padding: 0px 2rem;/*top right bottom left*/
 }
   
 .header{
     padding: 1rem;
     margin: 1rem 0px;
-    text-align: center;
+    text-align: center;/*centers the text*/
 }
 
-header > .title{
+header > .title{/*targets .title elements inside the <header> tag.*/
     margin-bottom: 1rem;
 }
 
